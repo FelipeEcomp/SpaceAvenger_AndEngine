@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">MovimentaDeBola</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_movimento">Movimento</string>
+    <string name="title_activity_teste">teste</string>
+
+</resources>

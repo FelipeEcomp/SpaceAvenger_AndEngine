@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="activity.projeto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SpaceAvengerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+             </activity>
+
+        <activity android:name=".MenuPrincipal" ></activity>
+        <activity android:name=".Cadastrar" ></activity>
+        <activity android:name=".Esqueci" ></activity>
+        <activity android:name=".Personagens" ></activity>
+        <activity android:name=".Options" ></activity>
+        <activity android:name=".StageSelection" ></activity>
+        <activity android:name=".AyepShop" ></activity>
+        <activity android:name=".CashShop" ></activity>
+        <activity android:name=".PlayerMovements" ></activity>
+        <activity android:name=".PVP" ></activity>
+        <activity android:name=".navegacaoActivity" ></activity>
+        
+        
+        </application>
+
+</manifest>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/espaco"    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Space Avenger"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="162dp"
+        android:layout_height="124dp"
+        android:src="@drawable/naveespacial" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <Button
+        android:id="@+id/entrar"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/esqueci"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Esqueci a senha" />
+    
+
+    <Button
+        android:id="@+id/cadastra"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar" />
+
+</LinearLayout>
